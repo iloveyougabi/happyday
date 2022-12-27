@@ -18,7 +18,7 @@ function typeWr(title, msg) {
   });
   setTimeout( () => {
     arrMsg.forEach((element, i) => {
-      setTimeout(() => msg.textContent += element, 50 * i);
+      setTimeout(() => msg.textContent += element, 100 * i);
     })
   },4200);
 }
@@ -60,7 +60,7 @@ function coriShow() {
       for(let i = 0; i < elementY.length; i++){
         setTimeout(() => elementY[i].classList.add('visible'), 50 * i);
       }
-    },45000);
+    },85000);
   
   }
   type(elements);
