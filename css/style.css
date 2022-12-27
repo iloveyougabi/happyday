@@ -9,7 +9,15 @@
 }
 
 #canvas {
-  margin-left: 42vw;
+  margin-top: -300px;
+}
+
+.ap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-top: -100px;
 }
 
 .pixel {
@@ -72,11 +80,23 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 480px) {
-  /* .header-subtitle {
-    margin-top: 450%;
-  } */
-  #canvas {
-    margin-left: 30vw;
+@media screen and (max-width: 650px) {
+  .ap {
+    margin-top: 100px;
   }
 }
+@media screen and (max-width: 550px) {
+  .ap {
+    margin-top: 250px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ap {
+    margin-top: 500px;
+  }
+}
+/* @media screen and (max-width: 350px) {
+  .ap {
+    margin-top: 500px;
+  }
+} */
